@@ -24,10 +24,10 @@ let package = Package(
         .target(
             name: "EasyTipView",
             dependencies: [],
-            exclude: ["assets", "Example", "Source"]),
+            exclude: ["assets/", "Example/", "Source/"]),
         .testTarget(
             name: "EasyTipViewTests",
             dependencies: ["EasyTipView"],
-            exclude: ["assets", "Example", "Source"]),
+            exclude: ["assets/", "Example/", "Source/"]),
     ]
 )
